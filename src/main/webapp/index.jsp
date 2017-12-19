@@ -2,7 +2,10 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title><%= "some title" %></title>
+    <%@ include file="partials/head.jsp"%>
+
+    <%@ include file="partials/navbar.jsp"%>
+
 </head>
 <body>
     <c:if test="true">
