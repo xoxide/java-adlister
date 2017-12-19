@@ -3,16 +3,11 @@
 <html>
 <head>
     <%@ include file="partials/head.jsp"%>
-
     <%@ include file="partials/navbar.jsp"%>
-
 </head>
 <body>
-    <c:if test="true">
-        <h1>Variable names should be very descriptive</h1>
-    </c:if>
-    <c:if test="false">
-        <h1>single letter variable names are good</h1>
-    </c:if>
+<div>
+  <h1>Welcome to AdLister!</h1>
+</div>
 </body>
 </html>
