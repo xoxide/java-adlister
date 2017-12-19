@@ -3,9 +3,9 @@
 <html>
 <head>
     <%@ include file="partials/head.jsp"%>
-    <%@ include file="partials/navbar.jsp"%>
 </head>
 <body>
+<%@ include file="partials/navbar.jsp"%>
 <div>
   <h1>Welcome to AdLister!</h1>
 </div>
